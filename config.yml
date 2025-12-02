@@ -1,0 +1,96 @@
+baseURL: "https://yuedi99.github.io/" 
+title: Yue Di
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+#        - name: Job-market paper
+#          url: /research/navigating_the_commons/JMP_navigating_the_commons.pdf
+#          params:
+#            href: "/research/navigating_the_commons/JMP_navigating_the_commons.pdf"
+#          weight: 1
+         - name: CV
+           url: /cv_Yue_Di.pdf
+           weight: 1
+#        - name: Research
+#          url: /research/
+#          weight: 3
+
+params:
+    description: "I am a PhD student in Measurement and Quantitative Methods at Michigan State University College of Education."
+    author: Yue Di
+    #googleAnalyticsID: ""
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Yue Di
+          subtitle: "<a target='_blank' href='https://www.name-coach.com/yue-di'><b><u>How to pronounce my name?</u></b></a><br><br>Hello! Thank you for visiting my website. I am a second-year Ph.D. student in <a target='_blank' href='https://education.msu.edu/cepse/mqm/'><b><u>Measurement and Quantitative Methods</u></b></a> at Michigan State University College of Education. My research interests are program evaluation, experimental design, quasi-experimental design, and causal inference. Outside of study and work, I enjoy exploring supermarkets and watching detective movies."
+          imageUrl: "/avatar.jpeg"
+          imageWidth: 230
+          imageHeight: 230
+          imageTitle: 
+          buttons:
+#            - name: Job-market paper
+#              url: /research/navigating_the_commons/JMP_navigating_the_commons.pdf
+            - name: CV
+              url: /cv_Yue_Di.pdf 
+#            - name: Research
+#              url: /research/
+    socialIcons:
+        - name: Email
+          url: mailto:diyue@msu.edu
+        - name: linkedin
+          url: https://www.linkedin.com/in/yueselinadi/
+        - name: twitter
+          url: https://x.com/YueDi73032627
+        - name: GitHub
+          url: https://github.com/yuedi99
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Yue Di"
+      icon: /favicon-moon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
+

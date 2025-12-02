@@ -1,0 +1,65 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 44px;
+    --footer-height: 70px;
+    --radius: 8px;
+    
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(24, 69, 59);
+    --secondary: rgb(86, 98, 112);
+    --tertiary: rgb(229, 229, 229);
+    --gray: rgb(153, 153, 153);
+    --content: rgb(51, 51, 51);
+    --hljs-bg: rgb(248, 249, 250);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(234, 234, 234);
+    
+    --darkgreen: #18453B;
+    --midgreen: #4CAF50;
+    --lightgreen: #E8F5E8;
+    
+    --spartan-green: #18453B;
+    --spartan-white: #FFFFFF;
+    --spartan-bronze: #C8A173;
+    --spartan-gray: #5A6C7D;
+    --spartan-light-gray: #F5F5F5;
+    
+    --semibold: 500;
+    --homesize: 16px;
+    --textsize: 18px;
+    --h1size: 25px;
+    --entrysize: 15px;
+    --headersize: 16px;
+    --footersize: 13px;
+    --lineheight: 1.45;
+    --lineclamp: 8;
+    --marginleft: 26px;
+}
+
+.dark {
+    --theme: rgb(24, 69, 59);
+    --entry: rgb(36, 81, 71);
+    --primary: rgb(255, 255, 255);
+    --secondary: rgb(200, 215, 220);
+    --tertiary: rgb(60, 105, 95);
+    --content: rgb(240, 240, 240);
+    --hljs-bg: rgb(40, 85, 75);
+    --code-bg: rgb(48, 93, 83);
+    --border: rgb(72, 117, 107);
+    
+    --darkgreen: #FFFFFF;
+    --midgreen: #C8A173;
+    --lightgreen: #2D5D53;
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}
