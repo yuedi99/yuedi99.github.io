@@ -21,5 +21,11 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+     {{ if .IsHome }}
+    <!-- Vistors Map -->
+    <script type="text/javascript" id="mapmyvisitors" 
+            src="//mapmyvisitors.com/map.js?d=wLU9jsKsKapgO3iBFvPN02llSfykUnwj2CoFKe-hbeM&cl=ffffff&w=a">
+    </script>
+    {{ end }}
 </body>
 </html>
