@@ -20,20 +20,6 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
-    {{ if .IsHome }}
-    <!-- Vistors Map -->
-    <script type='text/javascript' id='mapmyvisitors' 
-        src='https://mapmyvisitors.com/map.js?
-        cl=008208&
-        w=80&
-        t=n&
-        d=wLU9jsKsKapgO3iBFvPN02llSfykUnwj2CoFKe-hbeM&
-        co=ffffff&
-        cmo=008208&
-        cmn=7bbd00&
-        ct=000000'>
-    </script>
-    {{ end }} 
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}} 
 </body>
 </html>
